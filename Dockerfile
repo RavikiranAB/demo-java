@@ -1,4 +1,4 @@
-copy FROM ubuntu:latest
+FROM ubuntu:latest
 WORKDIR java
 RUN     apt-get update && \
         apt-get -y install openjdk-8-jdk && \
